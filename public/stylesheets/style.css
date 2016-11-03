@@ -1,0 +1,17 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.div-block-image {
+    background-color: white;
+    border-radius: 6px;
+    border: #222222 dashed 2px;
+    float: left;
+    margin: 10px;
+    padding: 10px;
+}

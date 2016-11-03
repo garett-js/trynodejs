@@ -1,0 +1,11 @@
+extends layout
+
+block content
+  if (value.length)
+  each val in value
+    .div-block-image
+      h1= val.title
+      img(src=val.image_url)
+      p Размеры : #{val.width} х #{val.height}
+      p ID : #{val.id}
+      p Краткое описание : #{val.desc_short}

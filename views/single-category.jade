@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  .div-block-image
+    h1=title
+    img(src=image_url)
+    p Размеры : #{width} х #{height}
+    p ID : #{id}
+    p=desc_short
+    p=desc_full
